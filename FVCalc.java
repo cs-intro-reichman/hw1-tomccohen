@@ -6,6 +6,6 @@ public class FVCalc {
 		rate = rate / 100;
 		double years = Double.parseDouble(args[2]);
 		double fv = amount * Math.pow(1+ rate, years);
-		System.out.println("After " + (int) years + " years, $" + (int) amount + " saved at " + (int) (rate * 100) + "% will yield $" + (int) fv);
+		System.out.println("After " + (int) years + " years, $" + (int) amount + " saved at " + (rate * 100) + "% will yield $" + (int) fv);
 	}
 }
