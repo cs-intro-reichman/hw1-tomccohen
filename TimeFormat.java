@@ -4,9 +4,8 @@ public class TimeFormat {
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
 		if  (hours < 12){ 
-			int a = hours;
 			String strMin = "" + args[0].charAt(3) + args[0].charAt(4); 
-			System.out.println(a + ":" + strMin + " AM");
+			System.out.println(hours + ":" + strMin + " AM");
 		} 
 		else
 		{ 
