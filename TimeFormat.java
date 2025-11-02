@@ -12,8 +12,8 @@ public class TimeFormat {
 		{ 
 			if (hours == 12){
 				String strMin = "" + args[0].charAt(3) + args[0].charAt(4);
-				System.out.print(hours);
-				System.out.println(":" + strMin + " PM");
+				//System.out.print(hours);
+				//System.out.println(":" + strMin + " PM");
 		}
 			else
 		{
